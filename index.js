@@ -1,36 +1,4 @@
-<!-- Enter your HTML code here -->
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Buttons Grid</title>
-
-    <style>
-        #btns {
-            position: relative;
-            width: 75%;
-            border: solid 2px;
-
-        }
-
-        .btn {
-
-
-            height: 48px;
-            font-size: 24px;
-            width: 30%
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container" id="btns">
-       
-
-    </div>
-    <script>
         var i;
         var x;
         var dizi = [];
@@ -45,7 +13,7 @@
            }
             dizi.push(x);
       
-console.log(dizi);
+
         }
         var y=1;
         dizi2.forEach((arr) => {
@@ -62,7 +30,7 @@ console.log(dizi);
             
             if (dizi.find((y)=>value.id==y)) {
                 
-                console.log(value.id);
+              
                 value.innerHTML="BOOOM";
              } else 
                value.innerHTML = "CLEAN"
@@ -73,7 +41,3 @@ console.log(dizi);
         
         
 
-    </script>
-</body>
-
-</html>
